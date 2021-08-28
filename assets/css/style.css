@@ -7,8 +7,8 @@
   --primary: rgba(1, 119, 82, 1);
   --secondary: rgba(232, 102, 236, 1);
   --tertiary: rgb(248, 115, 53);
-  --dark: rgba(28, 29, 33, 1);
-  --light: rgba(240, 238, 218, 1);
+  --dark: rgb(99, 32, 0);
+  --light: rgb(222, 240, 218);
 }
 
 body {
