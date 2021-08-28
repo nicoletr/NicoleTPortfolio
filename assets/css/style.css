@@ -5,8 +5,8 @@
 /* brand color palette */
 :root {
   --primary: rgba(1, 119, 82, 1);
-  --secondary: rgb(245, 238, 174);
-  --tertiary: rgb(255, 134, 78);
+  --secondary: rgba(232, 102, 236, 1);
+  --tertiary: rgb(248, 115, 53);
   --dark: rgba(28, 29, 33, 1);
   --light: rgba(240, 238, 218, 1);
 }
@@ -88,8 +88,9 @@ main {
 
 .hero-banner {
   background-image: url("../images/IMG_0771.jpeg");
-  background-size: 100vw;
+  background-size: 100%;
   background-position: center;
+  background-repeat: no-repeat;
   min-height: 30vh;
   color: var(--light);
   padding: 2% 6%;
@@ -133,7 +134,7 @@ main {
   flex: 0 0 20%;
   text-align: right;
   padding-right: 15px;
-  border-right: 4px solid var(--primary);
+  border-right: 4px solid var(--secondary);
   font-size: 4vw;
   line-height: 1.1;
 }
@@ -155,7 +156,7 @@ main {
 .flex-item {
   border: 5px solid var(--secondary);
   background-color: var(--primary);
-  color: var(--tertiary);
+  color: var(--primary);
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
