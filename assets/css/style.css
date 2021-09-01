@@ -89,11 +89,11 @@ main {
 }
 
 .hero-banner {
-  background-image: url("../images/IMG_0771.jpeg");
+  background-image: url("../images/eat-sleep-code.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 30vh;
+  min-height: 50vh;
   color: var(--light);
   padding: 2% 6%;
   display: flex;
