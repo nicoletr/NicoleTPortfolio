@@ -8,15 +8,15 @@
   --secondary: rgba(232, 102, 236, 1);
   --tertiary: rgb(30, 134, 47);
   --dark: rgb(99, 32, 0);
-  --light: rgb(222, 240, 218);
+  --white: rgb(255, 255, 255);
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: var(--primary);
-  background-color: var(--light);
+  color: var(--white);
+  background-color: var(--primary);
   line-height: 1.5;
 }
 
@@ -138,7 +138,7 @@ main {
   color: var(--secondary);
   text-align: right;
   padding-right: 15px;
-  border-right: 4px solid var(--primary);
+  border-right: 4px solid var(--secondary);
   font-size: 4vw;
   line-height: 1.1;
 }
@@ -159,7 +159,7 @@ main {
 
 .flex-item {
   border: 5px solid var(--primary);
-  background-color: var(--light);
+  background-color: var(--white, 0.5);
   color: var(--secondary);
   min-height: 150px;
   max-height: 150px;
@@ -218,9 +218,6 @@ main {
 }
 
 /* portfolio project images */
-.run-buddy {
-  background-image: url("../images/02-run-buddy.jpg");
-}
 
 .led-wall {
   background-image: url("../images/02-portfolio-1.jpg");
@@ -228,10 +225,6 @@ main {
 
 .react-calc {
   background-image: url("../images/02-portfolio-2.jpg");
-}
-
-.pastel-puzzles {
-  background-image: url("../images/02-portfolio-3.jpg");
 }
 
 .surf-report {
@@ -265,7 +258,7 @@ main {
 
   .page-section > h2 {
     border-right: none;
-    border-bottom: 4px solid var(--primary);
+    border-bottom: 4px solid var(--secondary);
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align: left;
