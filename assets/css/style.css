@@ -112,7 +112,7 @@ main {
   color: var(--primary);
   background-color: var(--secondary);
   margin: 0;
-  padding: 5px 10% 5px 1%;
+  padding: 5px 1% 5px 1%;
   font-size: 2rem;
   line-height: 1.2;
   display: inline;
@@ -280,7 +280,7 @@ main {
   }
 
   .flex-item:first-child {
-    min-height: 150px;
+    min-height: 300px;
   }
 
   .hero-banner {
