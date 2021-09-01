@@ -219,15 +219,15 @@ main {
 /* portfolio project images */
 
 .led-wall {
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../images/LEDwall.jpeg");
 }
 
 .react-calc {
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("../images/Calculator.jpeg");
 }
 
 .surf-report {
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("../images/Largest-Waves-Ever-Surfed.jpeg");
 }
 
 /* end portfolio project images */
