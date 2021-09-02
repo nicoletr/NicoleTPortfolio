@@ -11,6 +11,7 @@
   --white-transparent: rgba(255, 255, 255, 0.75);
 }
 
+/* sets the main font style and color for the page */
 body {
   margin: 0;
   padding: 0;
@@ -286,9 +287,18 @@ main {
   }
 
   .hero-banner {
+    width: 140%;
+    position: relative;
+    left: -20%;
+  }
+
+  .hero-banner h2 {
+    width: 100%;
     justify-content: center;
     text-align: center;
-    background-position: top;
+    font-size: 29px;
+    padding: 5px;
+    float: left;
   }
 
   .contact address {
