@@ -159,19 +159,21 @@ main {
 
 .flex-item {
   background-color: var(--white-transparent);
-  color: var(--secondary);
+  color: var(--primary);
   min-height: 150px;
   max-height: 150px;
   flex-basis: calc(50% - 1em);
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 0;
   margin: 0.5em;
   text-decoration: none;
   background-blend-mode: soft-light;
   background-size: 150%;
   transition: all 0.5s;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 /* feature first portfolio item */
@@ -182,10 +184,10 @@ main {
 
 .flex-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
+  color: transparent;
 }
 
 .flex-item div {
-  background-color: var(--primary);
   padding: 8px 10px;
 }
 
