@@ -8,89 +8,67 @@
   <title>Nicole Trpevski // Web Developer</title>
   <link rel="shortcut icon" href = "assets/images/favicon.ico">
   <link rel="stylesheet" href="assets/css/reset.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <h1>hi, i'm nicole</h1>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact Me</a>
-      <!-- link to resume -->
-      <a href="./assets/Nicole-Trpevski-Resume.pdf" target="_blank">Resume</a>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>and i'm studying web development</h2>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-header"><h1>hi, i'm nicole</h1></a>
+        <ul class="nav">
+              <li><a class="nav-item" href="#my-work">my work</a></li>
+              <li><a class="nav-item" href="./assets/Nicole-Trpevski-Resume.pdf" download>resume</a></li>
+              <li><a class="nav-item" href="#contact">contact</a></li>
+        </ul>
     </div>
-  </section>
+  </nav>
 
   <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div>
-        <p>
-          I have worked in media now for over 8 years. As the industry moves more and more into the digital realm, my interest in web has increased dramatically.
-          My initial interest started when I was studying Graphic Design back in 2012. They touched in web design as a unit, but it was the very basics of HTML.
-          I always wanted to learn more but never really got the chance, and then I fell into full-time work.
-          After seeing this course online, my interest was piqued because it seemed like the perfect opportunity to finally learn more about web development and design.
-        </p>
-        <p>
-          In my current position, I don't feel like there is any room for me to grow professionally. 
-          Another basis for my decision to learn this new skill.
-          I can see this as a hugely beneficial knowledge to have and am excited for what else is to come.
-        </p>
-      </div>
-    </section>
+    <!-- About Me -->
+      <section class="col page-section" id="bio">
+        <div class="col-8" id="about-me">
+          <p>
+            I have worked in media now for over 8 years. As the industry moves more and more into the digital realm, my interest in web has increased dramatically.
+            My initial interest started when I was studying Graphic Design back in 2012. They touched in web design as a unit, but it was the very basics of HTML.
+            I always wanted to learn more but never really got the chance, and then I fell into full-time work.
+            After seeing this course online, my interest was piqued because it seemed like the perfect opportunity to finally learn more about web development and design.
+          </p>
+          <p>
+            In my current position, I don't feel like there is any room for me to grow professionally. 
+            Another basis for my decision to learn this new skill.
+            I can see this as a hugely beneficial knowledge to have and am excited for what else is to come.
+          </p>
+        </div>
+        <div class="col-4">
+          <img id="my-image" src="assets/images/me.jpg" alt="an image of me should be here...">
+        </div>
+      </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div class="flex-container">
-
-        <a href="https://www.swellnet.com/" alt="Surf Report" target="_blank" class="flex-item surf-report">
-          <div>
-            <h3>Surf Report</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a>
-        
-        <a href="https://www.planar.com/products/led-video-walls/" alt="LED Wall" target="blank" class="flex-item led-wall">
-          <div>
-            <h3>LED Wall</h3>
-            <span>Node/IoT</span>
-          </div>
-        </a>
-        <a href="https://www.calculator.net/" alt="Calculator" target="_blank" class="flex-item react-calc">
-          <div>
-            <h3>Calculator</h3>
-            <span>React/JavaScript/CSS</span>
-          </div>
-        </a>
-
-      </div>
+    <section class="col page-section" id="my-work">
+        <div class="col work" id="work-one">
+          <h3>cryptocurrency tracker</h3>
+          <a href="#" alt="" target="_blank" class="flex-item" id="crypto-tracker">
+          </a>
+        </div>
+        <div class="col work" id="work-two">
+          <h3>weather dashboard</h3>
+          <a href="#" alt="" target="_blank" class="flex-item" id="weather-dashboard">
+          </a>
+        </div>
+        <div class="col work" id="work-three">
+          <h3>work-day planner</h3>
+          <a href="#" alt="" target="_blank" class="flex-item" id="work-day-planner">
+          </a>
+        </div>
     </section>
+  </main> 
+  <!-- contact me -->
+  <footer class="page-section" id="contact">
 
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <div>
-        <address>
-          <a href="tel:+61421882572" target="_blank">0421 882 572</a>
-          <a href="mailto:nicole.trpevski@gmail.com" target="_blank">nicole.trpevski@gmail.com</a>
-          <a href="https://github.com/nicoletr" target="_blank">GitHub</a>
-          <a href="https://www.linkedin.com/in/nicole-trpevski-7271b4120/" target="_blank">LinkedIn</a>
-        </address>
-      </div>
-    </section>
-  </main>
+  </footer>
 </body>
 
 </html>

@@ -17,7 +17,7 @@ body {
   padding: 0;
   font-family: 'Candara', 'Calibri', 'Segoe', 'Segoe UI', 'Optima', Arial, sans-serif;
   color: var(--white);
-  background-color: var(--primary);
+  background-color: var(--white);
   line-height: 1.5;
 }
 
@@ -30,34 +30,6 @@ h5,
 h6 {
   margin: 0;
 }
-
-p {
-  margin: 0;
-}
-
-/* Header container at top of page */
-header {
-  padding: 15px 6% 15px 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  background-color: var(--primary);
-  box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
-}
-
-/* Sets the style for the text within the header container*/
-header h1 {
-  font-family: 'Candara', 'Calibri', 'Segoe', 'Segoe UI', 'Optima', Arial, sans-serif;
-  color: var(--primary);
-  background-color: var(--secondary);
-  padding: 5px 1% 5px 10%;
-  margin: 0;
-  font-size: 4vw;
-  line-height: 1;
-}
-
 
 /* Naviagtion bar set to sit on the top left of the page*/
 nav {
@@ -86,93 +58,48 @@ nav a:hover {
   color: var(--light);
 }
 
-nav a:last-child {
-  margin-right: 0;
-}
-
-main {
-  margin-top: 20px;
-  margin-bottom: 45px;
-}
-
-/* Main image of the page*/
-.hero-banner {
-  background-image: url("../images/eat-sleep-code.jpg");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 50vh;
-  color: var(--light);  
-  display: flex;
+.navbar-collapse {
   justify-content: flex-end;
-  align-items: flex-end;
-  text-align: right;
-  line-height: 2.5;
-}
-
-.hero-banner div {
-  flex: 0 0 100%;
-}
-
-/* Sets the style for the header within the banner*/
-.hero-banner h2 {
-  color: var(--primary);
-  background-color: var(--secondary);
-  margin: 0;
-  padding: 5px 1% 5px 1%;
-  font-size: 2rem;
-  line-height: 1.5;
-  display: inline;
 }
 
 .page-wrapper {
-  max-width: 88%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.page-section {
-  margin: 25px 0;
-  padding: 10px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
+#bio {
+  display: inline-flex;
+  align-items: center;
+  padding: 5rem;
 }
 
-.page-section > h2 {
-  flex: 0 0 20%;
-  color: var(--secondary);
+#about-me {
+  font-size: 1.3rem;
   text-align: right;
-  padding-right: 15px;
-  border-right: 4px solid var(--secondary);
-  font-size: 4vw;
-  line-height: 1.1;
+  margin: 3rem;
+  margin-left: 0;
+  height: 30rem;
+  background-color: var(--primary);
 }
 
-.page-section > div {
-  flex: 0 0 77%;
+#my-image {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
 }
 
-.page-section p {
-  margin-bottom: 20px;
+#my-work {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
-/* Flex-box styling for the 'My Work' section*/
-.flex-container {
+.work {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.flex-item {
-  background-color: var(--white-transparent);
-  color: var(--primary);
-  min-height: 150px;
-  max-height: 150px;
-  flex-basis: calc(50% - 1em);
-  display: flex;
+  height: 30rem;
+  color: var(--white);
+  font-weight: bolder;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -183,139 +110,23 @@ main {
   background-size: 150%;
   transition: all 0.5s;
   font-size: 1rem;
+  background-color: var(--primary);
 }
 
-/* First porfolio item shows larger than the others */
-.flex-item:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+.work:hover {
+  background-color: transparent;
+  color: var(--primary);
 }
 
-.flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
-  color: transparent;
+#work-one {
+ background-image: url("../images/crypto-tracker.png");
 }
 
-.flex-item div {
-  padding: 8px 10px;
+#work-two {
+  background-image: url("../images/weather-dashboard.png");
 }
 
-.flex-item h3 {
-  font-size: 1.6rem;
+#work-three{
+  background-image: url("../images/work-day-planner.png");
 }
 
-/* Contact details at bottom of the page*/
-.contact address {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
-.contact address a {
-  color: var(--secondary);
-  padding: 5px;
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-style: normal;
-  transition: all 0.25s ease-in;
-  margin: 0 0.2rem 0.1rem;
-  display: inline-block;
-}
-
-.contact address a:hover {
-  color: var(--white);
-}
-
-/* portfolio project images */
-
-.led-wall {
-  background-image: url("../images/LEDwall.jpeg");
-}
-
-.react-calc {
-  background-image: url("../images/Calculator.jpeg");
-}
-
-.surf-report {
-  background-image: url("../images/Largest-Waves-Ever-Surfed.jpeg");
-}
-
-/* end portfolio project images */
-
-
-/*Sets new styling for viewports with a max-width of 980px*/
-@media screen and (max-width: 980px) {
-  header {
-    padding: 0 0 10px 0;
-    justify-content: center;
-    text-align: center;
-  }
-
-  header h1 {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    font-size: 10vw;
-  }
-
-  .hero-banner h2 {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-size: 29px;
-    padding: 5px;
-    float: left;
-  }
-
-  header nav {
-    justify-content: center;
-  }
-
-  .page-section > h2,
-  .page-section > div {
-    flex: 0 0 100%;
-  }
-
-  .page-section > h2 {
-    border-right: none;
-    border-bottom: 4px solid var(--secondary);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    text-align: left;
-    font-size: 7vw;
-  }
-}
-
-/*Sets new styling for viewports with a max-width of 769px*/
-@media screen and (max-width: 768px) {
-  .flex-item,
-  .flex-item:first-child {
-    flex-basis: 100%;
-  }
-
-  .flex-item:first-child {
-    min-height: 300px;
-  }
-
-  .hero-banner {
-    width: 140%;
-    position: relative;
-    left: -20%;
-  }
-
-  .hero-banner h2 {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    font-size: 29px;
-    padding: 5px;
-    float: left;
-  }
-
-  .contact address {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
