@@ -1,4 +1,26 @@
-@media screen and (max-width: 1120px) {
+@media screen and (max-width:1150px) {
+    .work {
+        height: 20rem;
+    }
 }
+
+@media screen and (max-width: 1080px) {
+    #text-background {
+        padding: 5% 30% 5% 5%;
+    }
+    footer a {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .work {
+        height: 15rem;
+    }
+    footer a {
+        font-size: 3rem;
+    }
+}
+
 @media screen and (max-width:768px) {
 }

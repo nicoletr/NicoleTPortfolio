@@ -99,7 +99,7 @@ footer a:hover{
 }
 
 #text-background {
-  padding: 0 30% 0 20%;
+  padding: 10% 30% 10% 10%;
   background-color: var(--primary);
   z-index: -1;
   height: 100%;
@@ -127,7 +127,7 @@ padding: 5%;
 
 .work {
   display: flex;
-  height: 30rem;
+  height: 25rem;
   color: var(--secondary);
   font-weight: bolder;
   align-items: center;
