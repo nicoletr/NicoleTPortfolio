@@ -22,5 +22,43 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:715px) {
+    #bio {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #my-image {
+        width: 65vw;
+    }
+
+    #about-me {
+        position: relative;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    #text-background {
+        padding: 0;
+        z-index: 0;
+    }
+
+    #my-work {
+        display: flex;
+        flex-direction: column;
+        height: 50rem;
+    }
+
+    .work {
+        width: 90%; 
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+
+    #footer-section {
+        padding: 1rem
+    }
 }

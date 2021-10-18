@@ -2,9 +2,7 @@
 :root {
   --primary: rgb(39, 37, 39);
   --secondary: rgba(232, 102, 236, 1);
-  --tertiary: rgb(30, 134, 47);
   --white: rgb(255, 255, 255);
-  --white-transparent: rgba(255, 255, 255, 0.75);
 }
 
 /* sets the main font style and color for the page */

@@ -3,7 +3,7 @@ Week 2 Homework - Portfolio
 
 I have created a Portfolio webpage to add to as the course goes on. Employers will look at this and be able to see my name, contact details, along with the work I have produced throughout the course and after.
 
-I currently do not have any web applications to showcase so I have linked the 'My work' boxes to various existing webpages based on the name.
+I have linked my best application works.
 
 ## Notes
 - When the application opens, it loads with no errors.
@@ -14,7 +14,7 @@ I currently do not have any web applications to showcase so I have linked the 'M
 - Page has a responsive layout
 
 ## Application Screenshot
-![Screenshot of my portfolio page](/assets/images/Screenshot%20.png)
+![Screenshot of my portfolio page](/assets/images/screenshot.png)
 
  ## Links
 
