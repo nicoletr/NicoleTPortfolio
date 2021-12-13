@@ -1,23 +1,21 @@
-# NicoleTPortfolio
-Week 2 Homework - Portfolio
+# Professional Portfolio
 
-I have created a Portfolio webpage to add to as the course goes on. Employers will look at this and be able to see my name, contact details, along with the work I have produced throughout the course and after.
+A HTML and CSS based portfolio page to showcase my skills. The page includes examples of my work, my resume, ways to contact me, and links to my various profiles for perusal. 
 
-I have linked my best application works.
 
-## Notes
-- When the application opens, it loads with no errors.
-- Employer is presented with my name, a selection of work and my contact details
-- Navigation links work
-- 'My Work' application links work
-- First application is larger than the rest
-- Page has a responsive layout
-
-## Application Screenshot
+## About
 ![Screenshot of my portfolio page](/assets/images/screenshot.png)
 
- ## Links
+### Built Using
+HTML, CSS, Bootstrap, fontawesome
+<br><br>
+## Get In Touch
 
 GitHub Repo: https://github.com/nicoletr/NicoleTPortfolio
 
 Deployed Application: https://nicoletr.github.io/NicoleTPortfolio/
+
+LinkedIn: https://www.linkedin.com/in/nicole-trpevski-7271b4120/
+
+Email: nicole.trpevski@gmail.com
+
